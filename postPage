@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post</title>
+    <link href="css/postStyle.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <header id="blogTitle" class="head box">
+        <h1 id="titleBlog">Little Eater</h1>
+      </header>
+
+      <nav class="navg box">
+        <ul id="navg">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Recpies</a></li>
+          <li><a href="index.html">Subsribe</a></li>
+        </ul>
+      </nav>
+      <main class="content">
+        <article class="art">
+          <h1 class="postTitle">Hidden vegetables sauce pasta</h1>
+          <h6 class="postDate">1 June 2023</h6>
+          <img src="images/pasta.jpg" alt="pasta" id="imgSize" />
+          <h4 class="subTitle">INGREDIENTS:</h4>
+          <ul class="list">
+            <li>
+              chopped vegetables: Onion, garlic, carrot, potato, broccoil,
+              tomato
+            </li>
+            <li>olive oil</li>
+            <li>tomato paste</li>
+            <li>dried oregano</li>
+            <li>Any kind of pasta you perfer</li>
+            <li>any type of cheese your child like</li>
+          </ul>
+          <h4 class="subTitle">STPES:</h4>
+          <ol class="list">
+            <li>add olive oil, Onion and garlic to pan and cook unitl</li>
+            <li>after that add chopped tomato</li>
+            <li>boil poasta, carrot, potato and broccoil</li>
+            <li>add the boilled vegetables to pan and mix</li>
+            <li>add tomato paste and dried oregano and mix</li>
+            <li>
+              put the mix in blender. after it become smooth put it back to the
+              pan
+            </li>
+            <li>
+              Finally add the boilled pasta and cheese. let it set and cheese
+              melt, then servie it.
+            </li>
+          </ol>
+          <div class="links">
+            <a href="postPage.html">Pervious Post</a>
+            <a href="postPage.html">Next Post</a>
+          </div>
+        </article>
+        <aside class="aside">
+          <img src="images/avatar.png" alt="" id="avt" />
+          <h5 class="styling">Sue Jane</h5>
+          <p class="styling">Mother & Software developer</p>
+          <p class="styling">Works as Freelancer</p>
+          <p class="styling">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            sapiente in minima quas distinctio natus amet provident ea quis
+            impedit, nesciunt non sint vitae cupiditate voluptatibus, asperiores
+            et aut pariatur.
+          </p>
+          <div class="icons">
+            <a href="https://www.linkedin.com/jobs" class="socialImg">
+              <img src="images/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://www.facebook.com/facebook/" class="socialImg">
+              <img src="images/facebook.png" alt="facebook" />
+            </a>
+            <a href="https://twitter.com/explore" class="socialImg">
+              <img src="images/twitter.png" alt="twitter" />
+            </a>
+          </div>
+        </aside>
+      </main>
+      <footer class="foot box">
+        <h6 class="footer">@CopyRight 2023</h6>
+      </footer>
+    </main>
+  </body>
+</html>
