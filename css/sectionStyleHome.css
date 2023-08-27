@@ -1,0 +1,112 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+.blgHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+#titleBlg {
+  margin: auto;
+  position: relative;
+  font-size: 40px;
+  color: #ffac98;
+  font-weight: 600;
+}
+.blgContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  background-color: #ffac98;
+  margin: 20px;
+}
+.cardImg {
+  width: 100%;
+  height: auto;
+}
+.imgs {
+  width: 100%;
+  height: 100%;
+}
+.cardContent {
+  padding: 30px;
+  display: inline-block;
+}
+.cardDateType {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+}
+.cardTitle {
+  color: #323143;
+  font-family: "Pacifico", cursive;
+}
+.auther {
+  color: #323143;
+  font-family: "Pacifico", cursive;
+}
+.readPost {
+  text-decoration: none;
+  color: #323143;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: #febf48;
+  border: none;
+}
+.btn:hover {
+  background-color: #ffffff;
+}
+
+@media (min-width: 901px) {
+  .card {
+    width: 280px;
+  }
+  .blgContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .blgContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #titleBlg {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .blgContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #titleBlg {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 901px) {
+  .blgContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,47 @@
+.navg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navg{
+    list-style: none;
+    background-color: #323143;
+    width: 100%;
+    text-align: center;
+}
+
+#navg li{
+    display: inline-block;
+    position: relative;
+}
+#navg li a{
+    display: block;
+    padding: 20px 25px;
+    color: #b4c8d4;
+    text-decoration: none;
+    text-align: center;
+    font-size:20px;
+}
+
+#navg li:hover a{
+    background-color:#b4c8d4;
+    color:#323143;
+}
+@media(max-width:320px){
+    #navg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }      
+}
+@media(min-width:321px) and (max-width:599px){
+    #navg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }      
+}
